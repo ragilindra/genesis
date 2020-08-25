@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+}
+
+body {
+    background: #163754;
+}
+
+nav ul {
+    background: #163754;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+
+nav ul li p {
+    float: left;
+}
+
+nav ul li a {
+    float: right;
+}
+
+nav ul li a:hover {
+    background: #EB5B02;
+}
+
+nav ul li:hover a {
+    color: #000;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "orange_blossom";
+    src: url(OrangeBlossom.ttf);
+}
+
+nav ul li p {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'orange_blossom';
+    font-size: 30px;
+}
+
+nav ul li .masuk {
+    padding: 15px;
+    margin-top: 10px;
+    background: red;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.sidebar {
+    display: flex;
+    flex-flow: row;
+}
+
+.genesis {
+    position: absolute;
+}
+
+.genesis1 {
+    bottom: 293px;
+    left: 400px;
+    z-index: 0;
+}
+
+.genesis2 {
+    left: 429px;
+    z-index: 1;
+}
