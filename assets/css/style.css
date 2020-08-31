@@ -68,22 +68,49 @@ nav ul li .masuk {
     width: 100px;
 }
 
-.sidebar {
-    display: flex;
-    flex-flow: row;
-}
-
 .genesis {
     position: absolute;
 }
 
+.line, .line2, .line3 {
+    position: absolute;
+    width: 250px;
+    border: 1px solid #DA392A;
+}
+
+.line {
+    top: 330px;
+    margin-bottom: 30px;
+    width: 250px;
+}
+
+.line2 {
+    top: -40px;
+    right: 30px;
+}
+
+.line3 {
+    bottom: -40px;
+    left: 30px;
+}
+
+.hebat {
+    color: #DA392A;
+    text-decoration: none;
+}
+
+.btn-danger:hover {
+    color: black;
+    background-color: #DA392A;
+}
+
 .genesis1 {
-    bottom: 293px;
-    left: 400px;
+    bottom: 23px;
+    left: 300px;
     z-index: 0;
 }
 
 .genesis2 {
-    left: 429px;
+    left: 329px;
     z-index: 1;
 }
